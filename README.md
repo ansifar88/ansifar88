@@ -9,7 +9,7 @@
 
 ### 🧑‍💻 About Me
 
-- 🔭 I’m currently working as a Node JS Specialist 
+- 🔭 I’m currently working as a Node JS Developer 
 - 🌱 I’m learning **Kubernetes**, **Next.js**, and **TypeScript**
 - 💬 Ask me about **React, Node.js, MongoDB, Docker**
 - 📫 Reach me at **ansifar88@gmail.com**
