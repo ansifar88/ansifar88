@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Muhammed Ansif A</h1>
-<h3 align="center">🚀 Full Stack Developer</h3>
+<h3 align="center">🚀 Backend-Focused Full Stack Developer</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ansifar88&label=Profile%20views&color=0e75b6&style=flat" alt="ansifar88" />
@@ -9,11 +9,45 @@
 
 ### 🧑‍💻 About Me
 
-- 🔭 I’m currently working as a Node JS Developer 
-- 🌱 I’m learning **Kubernetes**, **Next.js**, and **TypeScript**
-- 💬 Ask me about **React, Node.js, MongoDB, Docker**
+- 🔭 Currently working as a **Node.js Backend Developer** building high-throughput systems
+- ⚙️ Experienced in designing **microservices & event-driven architectures** for real-world applications
+- 🌍 Contributed to systems serving **100+ domains across 10+ countries**
+- 💳 Built and optimized **payment gateways, rewards, and affiliate platforms**
+- 🚀 Focused on **scalability, reliability, and performance optimization**
+- 🧠 Strong in **debugging production issues** (API failures, memory leaks, system bottlenecks)
+- 🌱 Currently diving deeper into **Kubernetes, Next.js, and TypeScript**
+- 💬 Ask me about **Backend Architecture, Node.js, Distributed Systems, Docker**
 - 📫 Reach me at **ansifar88@gmail.com**
 
+---
+
+### 🏢 Experience
+
+**Node.js Developer — FPLE Technology Pvt Ltd**  
+📅 Apr 2024 – Present  
+
+- Built backend systems for **payments, promotions, and affiliate platforms**  
+- Developed **secure REST APIs** for payment integrations  
+- Improved **transaction success rates** through database optimization (MySQL, MongoDB)  
+- Implemented **OTP authentication, rate limiting, and IP whitelisting** for security  
+- Diagnosed and resolved **production issues** across high-traffic systems  
+- Managed **CI/CD pipelines using Jenkins** for reliable deployments  
+- Introduced **Docker-based environments** for consistency across dev and production  
+- Contributed to **system design decisions** and mentored junior developers  
+
+---
+
+### 🚀 Highlight Project
+
+**🎟️ Ticket Booking Platform (Microservices Architecture)**  
+
+- Designed scalable services: **Auth, Orders, Payments, Moderation**  
+- Implemented **event-driven architecture using NATS Streaming**  
+- Solved **distributed data consistency** using event synchronization  
+- Prevented overselling with **Redis-based reservation expiration**  
+- Deployed using **Docker & Kubernetes (Ingress, Load Balancing)**  
+- Built **JWT-based authentication system**  
+- Automated deployments with **CI/CD pipelines**  
 
 ---
 
@@ -31,8 +65,18 @@
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-black?style=flat-square&logo=kubernetes)
 ![Amazon S3](https://img.shields.io/badge/-Amazon%20S3-black?style=flat-square&logo=amazon-s3)
 
+---
 
+### 📊 What I Focus On
 
+- ⚡ High-performance backend systems  
+- 🧩 Scalable microservices & distributed architectures  
+- 🔄 Event-driven systems & async processing  
+- 🛡️ Secure API design  
+- 📈 Observability (Prometheus, Grafana)  
+- 🚀 DevOps & deployment pipelines  
+
+---
 
 ### 🌐 Connect with me
 
