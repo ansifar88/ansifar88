@@ -2,15 +2,15 @@
 
 # Muhammed Ansif A
 
-### Backend Developer | Building Reliable Digital Products
+### Backend Developer | Node.js · TypeScript · Distributed Systems
 
-I build the systems behind websites and applications — from secure payments to reliable APIs and scalable services.
+Designing and building reliable backend services, secure APIs, and scalable application architectures.
 
 <a href="https://github.com/ansifar88">GitHub</a> ·
 <a href="https://www.linkedin.com/in/ansifar">LinkedIn</a> ·
 <a href="mailto:ansifar88@gmail.com">Contact Me</a>
 
-<img src="https://komarev.com/ghpvc/?username=ansifar88&style=flat-square&color=30363d&label=PROFILE+VISITORS" alt="Profile visitors" />
+<img src="https://komarev.com/ghpvc/?username=ansifar88&style=flat-square&color=30363d&label=PROFILE+VISITORS" alt="Profile Visitors" />
 
 </div>
 
@@ -18,99 +18,132 @@ I build the systems behind websites and applications — from secure payments to
 
 ## About Me
 
-I'm a backend developer with **2+ years of professional experience** building and maintaining real-world applications.
+I'm a **Backend Developer with 2+ years of experience** developing and maintaining production backend services using Node.js, TypeScript, and databases.
 
-My work focuses on the parts of an application users don't always see but depend on every day: processing payments, managing transactions, protecting user accounts, and keeping services running reliably.
+I work on business-critical application features involving payment processing, wallet transactions, referral systems, affiliate operations, and promotions. My focus is building secure APIs, designing reliable backend workflows, improving application performance, and writing maintainable code.
 
-- **Professional experience:** Production systems operating across 100+ domains in 10+ countries.
-- **What I build:** Secure APIs, payment integrations, wallet systems, and business applications.
-- **What I solve:** Production bugs, slow database queries, system failures, and performance issues.
-- **What I enjoy:** Designing better systems and making applications more reliable as they grow.
+I also explore distributed systems and microservices through personal projects, where I work on service communication, data consistency, reservation management, and deployment architecture.
 
-## Experience
+- **Backend engineering:** Building APIs and business logic for production applications.
+- **System design:** Structuring services for maintainability and scalability.
+- **Performance:** Optimizing database queries and backend operations.
+- **Security:** Implementing authentication, request protection, and access controls.
+- **Infrastructure:** Containerizing applications and supporting automated deployments.
 
-### Node.js Developer — FPLE Technology Pvt Ltd
+## Professional Experience
 
-`April 2024 – Present`
+### Node.js Developer
 
-I work on the backend of a production gaming platform, supporting member websites, affiliate websites, and internal administration systems.
+**FPLE Technology Pvt Ltd** · `April 2024 – Present`
 
-**Key contributions**
+Developing backend services for a production gaming platform operating across **100+ domains in 10+ countries**.
 
-- Developed and maintained services for payments, wallet transfers, referrals, and promotions.
-- Improved transaction reliability by investigating and resolving production issues.
-- Strengthened account and API security with OTP verification, rate limiting, and IP restrictions.
-- Optimized database queries to resolve performance bottlenecks.
-- Helped standardize development and deployment using Docker and Jenkins.
+**Backend development**
+
+- Develop and maintain Node.js and TypeScript services for member websites, affiliate platforms, and Back Office applications.
+- Implement backend functionality for wallet transfers, member management, referrals, affiliate operations, and promotions.
+- Build and maintain REST APIs supporting payment gateway integrations and transaction workflows.
+- Implement OTP verification, rate limiting, and IP whitelisting to strengthen API security.
+
+**Performance and engineering quality**
+
+- Optimize MySQL and MongoDB queries to resolve performance bottlenecks and improve transaction success rates.
+- Improve backend reliability by identifying and fixing application defects, memory leaks, and API failures.
+- Standardize development and deployment environments using Docker.
+- Maintain and improve deployment workflows using Jenkins CI/CD.
+- Collaborate on system design, code quality, and maintainable backend implementation.
 
 ## Featured Project
 
 ### Ticket Booking Platform
 
-<sub>PERSONAL PROJECT · MICROSERVICES ARCHITECTURE</sub>
+`PERSONAL PROJECT` · `MICROSERVICES` · `EVENT-DRIVEN ARCHITECTURE`
 
-A ticket booking application designed to handle orders, payments, and reservations across multiple independent services.
+Building a ticket booking platform that separates authentication, orders, payments, and moderation into independent services.
 
-**The problem I explored:** How do you prevent two customers from booking the same ticket, even when multiple requests happen at the same time?
+**Engineering challenges and solutions**
 
-**What I built**
+- **Service architecture:** Designed independent services with clear responsibilities.
+- **Asynchronous communication:** Used NATS Streaming to coordinate events between services.
+- **Data consistency:** Implemented event synchronization for workflows spanning multiple services.
+- **Inventory protection:** Built Redis-based reservation expiration to help prevent overselling.
+- **Authentication:** Implemented JWT-based authentication across services.
+- **Deployment:** Containerized services and deployed them to Kubernetes with Ingress and load balancing.
+- **Automation:** Configured CI/CD workflows for testing and deployment.
 
-- **Booking management:** Separate services handle orders, payments, and authentication.
-- **Reliable communication:** Services exchange events to keep related operations synchronized.
-- **Reservation protection:** Temporary reservations expire automatically, helping prevent tickets from being oversold.
-- **Deployment:** Containerized the application and deployed its services using Kubernetes.
+**Architecture overview**
 
-<a href="https://github.com/ansifar88/ticketing-Microservices">Explore the project on GitHub →</a>
+```text
+                  CLIENT APPLICATION
+                          |
+                    AUTH SERVICE
+                          |
+              +-----------+-----------+
+              |           |           |
+           ORDERS      PAYMENTS    MODERATION
+           SERVICE      SERVICE      SERVICE
+              |           |           |
+              +------ EVENT BUS ------+
+                    NATS STREAMING
+                          |
+                    REDIS CACHE
+                Reservation expiration
+```
 
-## Technologies I Work With
+<a href="https://github.com/ansifar88/ticketing-Microservices">View Source Code →</a>
+
+## Technical Stack
 
 <p align="center">
-  <strong>Backend Development</strong><br/>
+  <strong>Backend Development</strong><br/><br/>
   <img src="https://skillicons.dev/icons?i=nodejs,express,typescript,javascript" alt="Node.js, Express, TypeScript, JavaScript" />
 </p>
 
 <p align="center">
-  <strong>Databases and Data Storage</strong><br/>
+  <strong>Databases and Caching</strong><br/><br/>
   <img src="https://skillicons.dev/icons?i=mongodb,mysql,redis" alt="MongoDB, MySQL, Redis" />
 </p>
 
 <p align="center">
-  <strong>Deployment and Infrastructure</strong><br/>
+  <strong>Infrastructure and Deployment</strong><br/><br/>
   <img src="https://skillicons.dev/icons?i=docker,kubernetes,jenkins,nginx,git" alt="Docker, Kubernetes, Jenkins, NGINX, Git" />
 </p>
 
 <p align="center">
-  <strong>Additional Tools</strong><br/>
+  <strong>Additional Technologies</strong><br/><br/>
   <img src="https://skillicons.dev/icons?i=react,nextjs,postman" alt="React, Next.js, Postman" />
 </p>
 
-## What I Bring to a Team
+## Engineering Focus
 
-| Strength | What it means in practice |
+| Area | What I build |
 |---|---|
-| Reliability | Finding and fixing issues that affect users |
-| Performance | Making database queries and backend operations more efficient |
-| Security | Protecting sensitive operations and controlling API access |
-| Problem-solving | Investigating production failures under time pressure |
-| Collaboration | Working with engineers to improve code and system design |
+| Backend development | REST APIs, business logic, transaction workflows |
+| Architecture | Microservices and event-driven applications |
+| Data management | Database design, query optimization, caching |
+| Application security | Authentication, rate limiting, access controls |
+| Reliability | Resilient services, error handling, performance improvements |
+| DevOps | Docker environments, Kubernetes deployments, CI/CD |
 
 ## Certifications
 
-- SQL (Intermediate) — HackerRank, 2026
-- Node.js (Basic) — HackerRank, 2026
-- Postman API Fundamentals Student Expert — Postman, 2026
-- JavaScript (Basic) — HackerRank, 2023
+- SQL (Intermediate) — HackerRank, January 2026
+- Node.js (Basic) — HackerRank, January 2026
+- Postman API Fundamentals Student Expert — Postman, January 2026
+- JavaScript (Basic) — HackerRank, November 2023
 
-## Let's Connect
+## Let's Build Something
 
-I'm interested in backend engineering opportunities where I can build reliable systems, solve meaningful technical problems, and continue growing as an engineer.
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/ansifar">Connect on LinkedIn</a> ·
-  <a href="mailto:ansifar88@gmail.com">Send me an email</a> ·
-  <a href="https://github.com/ansifar88">Explore my projects</a>
-</p>
+I'm interested in backend engineering opportunities where I can contribute to application development, backend architecture, distributed systems, and scalable production services.
 
 <div align="center">
-  <sub>Building dependable systems that solve real problems.</sub>
+
+<a href="https://github.com/ansifar88">Explore My Projects</a> ·
+<a href="https://www.linkedin.com/in/ansifar">Connect on LinkedIn</a> ·
+<a href="mailto:ansifar88@gmail.com">Email Me</a>
+
+<br/>
+
+<sub>Building reliable systems. Solving engineering problems. Improving with every release.</sub>
+
 </div>
